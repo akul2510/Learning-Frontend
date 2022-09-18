@@ -79,7 +79,8 @@ button {
 
 button {
   font-family: "Inter", sans-serif;
-  &:active {
+
+  & :active {
     transform: scale(0.9);
   }
 }
