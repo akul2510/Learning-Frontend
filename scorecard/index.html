@@ -1,0 +1,37 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div id="scoreDisplay_home">
+                 
+                </div>
+                <div class="buttons">
+                <button onclick="addOneHome()">+1</button><button onclick="addTwoHome()">+2</button><button onclick="addThreeHome()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                  <div id="scoreDisplay_guest">
+                 
+                </div>
+                <div class="buttons">
+                <button onclick="addOneGuest()">+1</button><button onclick="addTwoGuest()">+2</button><button onclick="addThreeGuest()">+3</button>
+                </div>
+            </div>
+          
+        </div>
+        <div id="stretchingGoal">
+          <p id="winner-is"></p>
+          <button id="showWinner" onclick="showWinner()">Winner is...</button>
+        <button id="resetScore" onclick="startNew()">Start New Game</button>
+                 </div>
+        <script src="index.js"></script>
+    </body>
+</html>
