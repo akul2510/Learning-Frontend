@@ -81,7 +81,7 @@ button {
   font-family: "Inter", sans-serif;
 }
 button:active {
-  transform: scale(0.99);
+  transform: scale(0.95);
 }
 
 #stretchingGoal {
